@@ -18,7 +18,11 @@
                 HeightRequest = request;
                 
                 System.Diagnostics.Debug.WriteLine($"Height set to: {HeightRequest}");
+
+                return;
             }
+
+            System.Diagnostics.Debug.WriteLine($"Height is alreay set to: {HeightRequest}");
         }
     }
 }
